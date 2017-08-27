@@ -10,3 +10,4 @@ For studying! In theory.
 * **Working with JSON data** - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 * **Stack Overflow - JSON typo** - https://stackoverflow.com/questions/45901320/pulling-data-from-json-file-to-html-with-javascript
 * **Keyboard Key Codes** - http://keycode.info/
+* **Elegant JS** - http://eloquentjavascript.net/14_event.html#c_pIZLxVk8Ol

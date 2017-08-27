@@ -33,16 +33,16 @@ function showWords(jsonObj) {
 
     section.appendChild(theArticle);
   };
-};
-*/
+}; */
+var section = document.querySelector('section');
 
 var xhttp = new XMLHttpRequest();
 xhttp.responseType = 'JSON';
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       var vocabWords = this.response;
-      document.getElementById("jsonData").innerHTML = vocabWords;
-      showWords(JSON.parse(vocabWords.replace('"四" },', '"四" }'))); // <= This should work with a valid json format.
+      document.getElementById("demo").innerHTML = vocabWords;
+      showWords(JSON.parse(vocabWords)); // <= This should work with a valid json format.
     }
 };
 xhttp.open("GET", "https://raw.githubusercontent.com/okayauco/flashcards/master/sandbox/vocab-sandbox.json", true);
