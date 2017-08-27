@@ -1,6 +1,6 @@
 var section = document.querySelector('section');
 
-var retrieveData = 'vocab-sandbox.json';
+var retrieveData = 'https://raw.githubusercontent.com/okayauco/flashcards/master/sandbox/vocab-sandbox.json';
 var request = new XMLHttpRequest();
 request.open('GET', retrieveData);
 request.responseType = 'JSON';
