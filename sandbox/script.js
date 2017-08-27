@@ -3,13 +3,13 @@ var section = document.querySelector('section');
 var retrieveData = 'https://raw.githubusercontent.com/okayauco/flashcards/master/sandbox/vocab-sandbox.json';
 var request = new XMLHttpRequest();
 request.open('GET', retrieveData);
-request.responseType = 'JSON';
+request.responseType = 'json';
 request.send();
 
 request.onload = function() {
   var vocabWords = request.response;
-  showWords(vocabWords);
-}
+  showWords(JSON.parse(vocabWords));
+};
 
 function showWords(jsonObj) {
   var words = jsonObj['vocabulary'];
@@ -32,4 +32,5 @@ function showWords(jsonObj) {
     theArticle.appendChild(inKanji);
 
     section.appendChild(theArticle);
+  }
 }
