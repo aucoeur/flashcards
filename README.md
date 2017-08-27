@@ -2,7 +2,7 @@
 
 For studying! In theory.
 
-##Resources
+## Resources
 * **React Flashcards** - https://codepen.io/mattgreenberg/pen/ggOpOr
 * **Flashcards - Curtis Blackwell** - https://github.com/curtisblackwell/flash_cards
 * **CSS Perspective** - https://desandro.github.io/3dtransforms/docs/perspective.html
