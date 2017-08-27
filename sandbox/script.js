@@ -21,10 +21,10 @@ function showWords(jsonObj) {
     var inHiragana = document.createElement('p');
     var inKanji = document.createElement('p');
 
-    inEnglish.textContent = vocabulary[i].English;
-    inRomaji.textContent = vocabulary[i].Romaji;
-    inHiragana.textContent = vocabulary[i].Hiragana;
-    inKanji.textContent = vocabulary[i].Kanji;
+    inEnglish.textContent = words[i].English;
+    inRomaji.textContent = words[i].Romaji;
+    inHiragana.textContent = words[i].Hiragana;
+    inKanji.textContent = words[i].Kanji;
   }
 
   theArticle.appendChild(inEnglish);
