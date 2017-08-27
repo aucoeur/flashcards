@@ -26,6 +26,7 @@ function showWords(jsonObj) {
     inHiragana.textContent = words[i].Hiragana;
     inKanji.textContent = words[i].Kanji;
   };
+  }
 
   theArticle.appendChild(inEnglish);
   theArticle.appendChild(inRomaji);
