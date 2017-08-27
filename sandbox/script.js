@@ -25,13 +25,12 @@ function showWords(jsonObj) {
     inRomaji.textContent = words[i].Romaji;
     inHiragana.textContent = words[i].Hiragana;
     inKanji.textContent = words[i].Kanji;
-  };
+
+    theArticle.appendChild(inEnglish);
+    theArticle.appendChild(inRomaji);
+    theArticle.appendChild(inHiragana);
+    theArticle.appendChild(inKanji);
+
+    section.appendChild(theArticle);
   }
-
-  theArticle.appendChild(inEnglish);
-  theArticle.appendChild(inRomaji);
-  theArticle.appendChild(inHiragana);
-  theArticle.appendChild(inKanji);
-
-  section.appendChild(theArticle);
 };

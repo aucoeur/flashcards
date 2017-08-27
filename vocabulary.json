@@ -1,6 +1,27 @@
-{"vocabulary":[
-  {"English":"one", "Romaji":"ichi", "Hiragana":"ぃち", "Kanji":"⼀" },
-  {"English":"two", "Romaji":"ni", "Hiragana":"に", "Kanji":"ニ" },
-  {"English":"three", "Romaji":"san", "Hiragana":"さん", "Kanji":"三" },
-  {"English":"four", "Romaji":"yon", "Hiragana":"よん", "Kanji":"四" },
-]}
+{
+	"vocabulary": [{
+			"English": "one",
+			"Romaji": "ichi",
+			"Hiragana": "ぃち",
+			"Kanji": "⼀"
+		},
+		{
+			"English": "two",
+			"Romaji": "ni",
+			"Hiragana": "に",
+			"Kanji": "ニ"
+		},
+		{
+			"English": "three",
+			"Romaji": "san",
+			"Hiragana": "さん",
+			"Kanji": "三"
+		},
+		{
+			"English": "four",
+			"Romaji": "yon",
+			"Hiragana": "よん",
+			"Kanji": "四"
+		}
+	]
+}
