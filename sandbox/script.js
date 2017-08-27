@@ -33,4 +33,4 @@ function showWords(jsonObj) {
 
     section.appendChild(theArticle);
   }
-};
+}
