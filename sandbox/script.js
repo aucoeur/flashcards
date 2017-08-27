@@ -1,6 +1,6 @@
 var section = document.querySelector('section');
 
-var retrieveData = 'vocab-sandbox.json';
+var retrieveData = 'https://raw.githubusercontent.com/okayauco/flashcards/master/sandbox/vocab-sandbox.json';
 var request = new XMLHttpRequest();
 request.open('GET', retrieveData);
 request.responseType = 'JSON';
@@ -8,8 +8,8 @@ request.send();
 
 request.onload = function() {
   var vocabWords = request.response;
-  showWords(vocabWords);
-}
+  showWords(JSON.parse(vocabWords));
+};
 
 function showWords(jsonObj) {
   var words = jsonObj['vocabulary'];
@@ -21,11 +21,11 @@ function showWords(jsonObj) {
     var inHiragana = document.createElement('p');
     var inKanji = document.createElement('p');
 
-    inEnglish.textContent = vocabulary[i].English;
-    inRomaji.textContent = vocabulary[i].Romaji;
-    inHiragana.textContent = vocabulary[i].Hiragana;
-    inKanji.textContent = vocabulary[i].Kanji;
-  }
+    inEnglish.textContent = words[i].English;
+    inRomaji.textContent = words[i].Romaji;
+    inHiragana.textContent = words[i].Hiragana;
+    inKanji.textContent = words[i].Kanji;
+  };
 
   theArticle.appendChild(inEnglish);
   theArticle.appendChild(inRomaji);
@@ -33,4 +33,4 @@ function showWords(jsonObj) {
   theArticle.appendChild(inKanji);
 
   section.appendChild(theArticle);
-}
+};
