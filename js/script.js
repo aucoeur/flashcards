@@ -50,13 +50,14 @@ var ch2b = [{English: "go", Romaji: "ikimasu", Hiragana: "いきます", Kanji: 
 var vocabWords = "";
 
 $('.ch2a').click(function (){
-    vocabWords= ch2a;
-  console.log(vocabWords)
+    vocabWords = ch2a;
 });
 
-$('.ch2b').click(function (){
-    vocabWords= ch2b;
-  console.log(vocabWords)
+var url = "ch2b.js";
+$.getScript( url, function() {
+  $('.ch2b').click(function (){
+    vocabWords = ch2b;
+  });
 });
 
 addEventListener("keydown", function(event) {
