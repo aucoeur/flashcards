@@ -1,0 +1,37 @@
+body {
+  margin: 25px;
+  background-color: #c0c0c0;
+  font-size: 20px;
+}
+
+#text {
+  height: 400px;
+  width: 1000px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+textarea {
+  border-color: #000000;
+  background-color: #dbdbdb;
+}
+
+button {
+  height: 45px;
+  width: 150px;
+  border: 1px;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #aff218;
+  color: #000000;
+}
+
+button:hover {
+  width: 150px;
+  border: 1px;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #aff218;
+}
