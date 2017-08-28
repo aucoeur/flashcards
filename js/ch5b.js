@@ -16,4 +16,4 @@ var ch5b = [{English:"doctor", Romaji: "isha", Hiragana: "いしゃ", Kanji " "}
             {English:"sometimes", Romaji: "tokidoki", Hiragana: "ときどき", Kanji " "},
             {English:"not much", Romaji: "omari~nai", Hiragana: "あまり〜ない", Kanji " "},
             {English:"not at all", Romaji: "zenzen~nai", Hiragana: "ぜんぜん〜ない", Kanji " "},
-            {English:"What happened?/What's wrong", Romaji: "Doushitandesuka", Hiragana: "どうしたんですか", Kanji " "},]
+            {English:"What happened?/What's wrong", Romaji: "Doushitandesuka", Hiragana: "どうしたんですか", Kanji " "}]
