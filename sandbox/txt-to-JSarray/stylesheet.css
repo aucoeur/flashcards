@@ -4,15 +4,12 @@ body {
   font-size: 20px;
 }
 
-#text {
-  height: 400px;
-  width: 1000px;
-  font-family: "Courier New", Courier, monospace;
-}
-
 textarea {
   border-color: #000000;
   background-color: #dbdbdb;
+  height: 400px;
+  width: 1000px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 button {
