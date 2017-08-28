@@ -1,7 +1,7 @@
 function autoMagical() {
-  var regEx = /(^\S+)\t(\S+)\t(\S+)\t(.+)/gm;
+  var regEx = /(^.+$)\n(^.+$)\n(^.+$)\n(^.+$)\n/m;
   var inputText = document.getElementById("rawText").value;
-  var subStr = `{English:"$1", Romaji: "$2", Hiragana: "$3", Kanji: "$4"},`;
+  var subStr = `{English: "$1", Romaji: "$2", Hiragana: "$3", Kanji: "$4"},`;
       // The substituted value will be contained in the result variable
   var convertedText = inputText.replace(regEx, subStr);
 
