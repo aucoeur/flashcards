@@ -12,3 +12,4 @@ For studying! In theory.
 * **Keyboard Key Codes** - http://keycode.info/
 * **Elegant JS** - http://eloquentjavascript.net/14_event.html#c_pIZLxVk8Ol
 * **Convert Multiple Lines to JS Array** - https://codepen.io/franciskim/pen/eNjrpR
+* **RegEx Tester** - https://regex101.com/
