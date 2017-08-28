@@ -9,19 +9,22 @@ hr {
 }
 
 .cardTemplate {
-  height: 480px;
+  height: 360px;
   width: 640px;
   margin: auto;
+  position: relative;
   transition: all 0.2s;
   perspective: 900px;
 }
 
 .englishVocab, .japaneseVocab {
-  height: 240px;
+  height: 360px;
   width: 640px;
-  padding-top: 20%;
+  display: flex;
   position: absolute;
-  font-size: 64px;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
   text-align: center;
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -44,4 +47,17 @@ hr {
   .flipped .englishVocab {
     transform: rotateY(180deg);
   }
-}
+
+  button {
+    border: none;
+    border-color: #c0c0c0;
+    color: #081280;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  button:hover {
+    border-color: #081280;
+    background-color: #081280;
+    color: #ffffff;
+  }
