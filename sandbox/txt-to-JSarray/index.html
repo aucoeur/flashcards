@@ -7,7 +7,11 @@
     </head>
   <body>
     <p>This tool will convert plain text to a custom Javascript array suitable for making flashcards.</p>
-    <textarea id="text"></textarea><br />
-    <button id="autoMagic" onclick="alert('I do nothing yet. Nooothiiiing!')">Tally Ho! >>> </button>
+    <textarea id="rawText">atama head あたま 頭</textarea><br />
+    <button id="autoMagic" type="button" onclick="autoMagical()">Tally Ho! >>> </button><br />
+    <textarea id="results"></textarea>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
