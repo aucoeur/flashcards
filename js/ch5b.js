@@ -2,6 +2,7 @@ var ch5b = [{English:"doctor", Romaji: "isha", Hiragana: "いしゃ", Kanji: " "
             {English:"this week", Romaji: "konshuu", Hiragana: "こんしゅう", Kanji: "今週"},
             {English:"last week", Romaji: "senshuu", Hiragana: "せんしゅう", Kanji: "先週"},
             {English:"next week", Romaji: "raishuu", Hiragana: "らいしゅう", Kanji: "来週"},
+            {English:"during the morning", Romaji: "gozenchuu", Hiragana: "ごぜんちゅう", Kanji: " "},
             {English:"now", Romaji: "ima", Hiragana: "いま", Kanji: "今"},
             {English:"remember", Romaji: "otoidasu", Hiragana: "おもいだす", Kanji: " "},
             {English:"learn", Romaji: "narau", Hiragana: "ならう", Kanji: " "},
