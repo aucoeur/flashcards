@@ -9,6 +9,13 @@ $('div.cardTemplate').click(function () {
 
 var vocabWords = "";
 
+var kanjiJ1 = "https://okayauco.github.io/flashcards/js/kanjiJ1.js";
+$.getScript(getch5b, function() {
+  $('.kanjiJ1').click(function (){
+    vocabWords = kanjiJ1;
+  });
+});
+
 var getch5b = "https://okayauco.github.io/flashcards/js/ch5b.js";
 $.getScript(getch5b, function() {
   $('.ch5b').click(function (){
