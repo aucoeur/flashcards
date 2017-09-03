@@ -2,7 +2,7 @@ var kanjiJ1 = [{English: "one", Romaji: "ichi", Hiragana: "いち", Kanji: "一"
               {English: "two", Romaji: "ni", Hiragana: "に", Kanji: "二"},
               {English: "three", Romaji: "san", Hiragana: "さん", Kanji: "三"},
               {English: "four", Romaji: "yon", Hiragana: "よん", Kanji: "四"},
-              {English: "five", Romaji: "go", Hiragana: "ご", Kanji: "語"},
+              {English: "five", Romaji: "go", Hiragana: "ご", Kanji: "五"},
               {English: "six", Romaji: "roku", Hiragana: "ろく", Kanji: "六"},
               {English: "seven", Romaji: "nana/shichi", Hiragana: "なな/しち", Kanji: "七"},
               {English: "eight", Romaji: "hachi", Hiragana: "はち", Kanji: "八"},
